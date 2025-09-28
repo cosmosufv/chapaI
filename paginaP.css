@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to top,#1e1a39 ,#482b70);
+    background: linear-gradient(to top, #1e1a39, #482b70);
     margin: auto;
     height: 100%;
     overflow: hidden;
@@ -12,28 +12,14 @@ body {
     position: relative;
     bottom: 0;
     left: 0;
-   padding: 15px;
+    padding: 15px;
     width: 100%;
     height: 85px;
-    
-     background-image: url(estrela1.gif);
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover; 
-}
 
-.topo2 {
-   
-   position: relative; 
-    bottom: -100px;            
-    left: 0;
-    padding: -15px;
-    width: 100%;          
-    height: 85px;
-   
-    background-image: url("estrela1.gif");
+    background-image: url(estrela1.gif);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -41,8 +27,8 @@ body {
     color: #f5da93;
     margin-left: 150px;
     font-size: 24px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     margin-top: 5PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5PX;
 }
 
 .logo-projeto {
@@ -54,17 +40,17 @@ body {
 }
 
 .imagens {
-    display: flex;          
-    flex-direction: column;  
-    align-items: center;    
-    justify-content: flex-start; 
-    gap: 60px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 60px;
 }
 
 .imgMembros,
 .imgPropostas,
 .imgInsta {
-    width:70%;
+    width: 70%;
     height: 70%;
     display: block;
     margin-left: auto;
@@ -76,16 +62,23 @@ body {
 .imgMembros:hover,
 .imgPropostas:hover,
 .imgInsta:hover {
-   opacity: 0.7;
-   transform: scale(1.2);
-   transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0.7;
+    transform: scale(1.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
-@media(max-width: 768px){
-    .menu{
-        flex-direction: column;
-    }
 
-.bloco {
-    width: 100%;
-}
+@media screan and (max-width: 2000px) {
+    .topo2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 85px;
+        padding: -30px;
+        background-image: url("estrela1.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
 }
