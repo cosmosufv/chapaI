@@ -10,8 +10,9 @@ body {
 }
 
 .topo {
-    position: relative;
+   position: relative;
     height: 80px;
+    width: 100%;
     padding: 20px;
     background-image: url(estrela1.gif);
     background-repeat: no-repeat;
