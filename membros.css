@@ -19,6 +19,20 @@ body {
     background-size: cover;
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    height: 85px;
+
+    background-image: url(estrela1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .nome {
     color: #f5da93;
@@ -77,30 +91,30 @@ body {
 .imgMembros {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-items: start;
-    padding-left: 10px;
+    gap: 1px;
+    justify-items: center;
+}
 
+
+.imgMembros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: -5px;
+    justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .imgMembros {
+        grid-template-columns: 1fr;
+    }
 }
 
 .imgMembros {
-    width: 180px;
-    height: auto;
-    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-items: center;
 }
-
-@media screen and (max-width: 2000px) {
-    .imgMembros {
-        width: 9000px;
-        display: block;
-    }
-
-    .imgMembros {
-        max-width: 98%;
-        height: auto;
-        display: block;
-        margin: 0 auto 20px;
-    }
 
     .topo {
         height: 120px;
@@ -110,4 +124,3 @@ body {
     .menu ul {
         top: 70px;
     }
-}
